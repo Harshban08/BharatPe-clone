@@ -1,0 +1,353 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px ;
+    padding-top: 8px;
+    /* margin-bottom: 50px; */
+}
+body {
+    margin: 0px;
+}
+#logo{
+    margin-top: 3px;
+    /* margin-left: 80px; */
+}
+
+#nav{
+    display: flex;
+    gap: 0 12px;
+    height: 20px;
+}
+#nav a{
+    margin-right: 30px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#nav a:hover{
+    height: 80px;
+    margin-top: 10px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+#btn{
+    margin-top: 7px;
+    /* margin-right: 80px; */
+}
+main{
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    flex-grow: 1;
+    width: 50%;
+    padding: 0px;
+}
+.image{
+    flex-grow: 1;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: -50px;
+    margin-bottom: -50px;
+    /* height: 50px; */
+}
+.story{
+    margin-top: 60px;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    padding-top:20px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 30px;;
+}
+.last{
+    height: 600px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#image{
+    margin-left: 180px;
+}
+#content{
+    width: 600px;
+    margin-right: 180px;
+    margin-top: 110px;
+}
+
+.box4{
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: rgb(185, 247, 255);
+    text-align: center;
+    padding-top: 5px;
+    height: 850px;
+    /* width: 4000px; */
+}
+.box4 .minibox4{
+    /* font-size: medium;
+    display: flex;
+    padding: 10px 10px 10px;
+    text-align: center;
+    margin: 10px 10px 10px;
+    border: 2px;
+    border-radius: 5px; */
+    display: flex;
+    /* border: 5px; */
+    font-size: medium;
+    max-width: 395px;
+    /* border: 2px solid black; */
+    margin: 48px auto 32px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0;
+    background-color: white;
+
+}
+
+.box4 .minibox4 :nth-child(1){
+    /* border: 1px solid black; */
+    color: black;
+    /* background-color: blue; */
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 30px;
+    border-radius: 10px;
+}
+
+/* .box4 .minibox4 :first-child :hover{
+    background-color: blue;
+    font-color: white;
+} */
+
+.box4 .minibox4 :nth-child(2){
+    /* border: 1px solid black; */
+    color: black;
+    /* background-color: blue; */
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.box4 .minibox4 :nth-child(3){
+    /* border: 1px solid black; */
+    color: white;
+    background-color: blue;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.box4 .bigbox img{
+    height: 250px;
+    width: 560px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+.box4 .bigbox {
+    /* height: 300px;
+    width: 500px; */
+    /* margin: 10px 10px 10px 10px; */
+    font-size: 30px;
+    border: 1px solid black;
+    width: 590px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    margin-left: 370px;
+}
+
+.box4 .bigbox div{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.box4 .bigbox button{
+    color: blue;
+    margin-top: 60px;
+    
+}
+
+.box5 div{
+    text-align: center;
+    font-size: 35px;
+    margin: 50px 0px 0px 0px ;
+    font-weight: 600;
+}
+
+.box6{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(251, 221, 226);
+    height: 700px;
+}
+.box7 div{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+}
+.box7 .minibox{
+    display: flex;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+}
+.box7 .minibox1{
+    /* border: 2px solid; */
+    border-radius: 8px;
+    width: 400px;
+    height: 350px;
+    padding: 1px 1px 1px 10px;
+    /* display: flex; */
+    margin: 1px 35px 1px 30px ;
+    box-shadow: 0px 0px 10px 0px;
+}
+.box7 .minibox1 div{
+    font-size: 18px;
+    /* border: 2px solid; */
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.box7 .minibox1 :nth-child(1){
+    color: grey ;
+    padding: 30px 1px 1px 1px;
+}
+.box7 .minibox1 :nth-child(2){
+    padding: 10px 1px 1px 1px;
+    font-size: 23px;
+}
+
+.box7 .minibox1 :nth-child(3){
+    color: grey;
+    padding: 10px 1px 1px 1px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.box7 .minibox1 button{
+    padding: 1px 1px 1px 1px;
+    margin: 40px 10px 0px 0px ;
+    /* text-align: left; */
+}
+
+.box7 .minibox2{
+    /* border: 2px solid; */
+    border-radius: 8px;
+    width: 400px;
+    height: 350px;
+    padding: 1px 1px 1px 10px;
+    margin: 1px 40px 1px 0px ;
+    box-shadow: 0px 0px 10px 0px;
+}
+.box7 .minibox2 div{
+    font-size: 18px;
+    /* border: 2px solid; */
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.box7 .minibox2 :nth-child(1){
+    color: grey ;
+    padding: 30px 1px 1px 1px;
+}
+.box7 .minibox2 :nth-child(2){
+    padding: 10px 1px 1px 1px;
+    font-size: 23px;
+}
+
+.box7 .minibox2 :nth-child(3){
+    color: grey;
+    padding: 10px 1px 1px 1px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.box7 .minibox2 button{
+    padding: 1px 1px 1px 1px;
+    margin: 40px 10px 0px 0px ;
+    /* text-align: left; */
+}
+
+.box7 .minibox3{
+    /* border: 1px solid; */
+    border-radius: 8px;
+    width: 400px;
+    height: 350px;
+    padding: 1px 4px 1px 10px;
+    margin: 1px 40px 1px 0px ;
+    box-shadow: 0px 0px 10px 0px ;
+}
+.box7 .minibox3 div{
+    font-size: 18px;
+    /* border: 2px solid; */
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.box7 .minibox3 :nth-child(1){
+    color: grey ;
+    padding: 30px 1px 1px 1px;
+}
+.box7 .minibox3 :nth-child(2){
+    padding: 10px 1px 1px 1px;
+    font-size: 23px;
+}
+
+.box7 .minibox3 :nth-child(3){
+    color: grey;
+    padding: 10px 1px 1px 1px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.box7 .minibox3 button{
+    padding: 1px 1px 1px 1px;
+    margin: 40px 10px 0px 0px ;
+    /* text-align: left; */
+}
+
+.box7 .lastbutton button{
+    height: 30px;
+    width: 130px;
+    padding: 5px 1px 25px 1px;
+    border-radius: 4px;
+    size: 10px;
+    font-weight: bolder;
+    color: rgb(10, 80, 231);
+    border-color: rgb(11, 34, 185);
+    background-color: white;
+    margin: 1px 1px 100px 1px ;
+}
+
+.lastbox{
+    background-color: black;
+    height: 1000px;
+    width: 2000px;
+    color: rgb(0, 0, 0);
+    /* margin: 10px 10px 10px 10px ; */
+}
+ 
+.lastbox .img1{
+    margin: 10px 10px 10px 10px ;
+    padding: 10px 10px 10px 10px ; 
+    
+} 
